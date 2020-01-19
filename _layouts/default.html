@@ -20,19 +20,15 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">About</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="https://pinghe2020.github.io/D365_FO.html" class="btn">D365 FO</a>
-        <a href="https://pinghe2020.github.io/D365_BC.html" class="btn">D365 BC</a>
-        <a href="https://pinghe2020.github.io/D365_Retail.html" class="btn">D365 Retail</a>
-      {% endif %}
+      
+      <a href="{{ site.github.repository_url }}" class="btn">About</a>
+      <a href="https://pinghe2020.github.io/D365_FO.html" class="btn">D365 FO</a>
+      <a href="https://pinghe2020.github.io/D365_BC.html" class="btn">D365 BC</a>
+      <a href="https://pinghe2020.github.io/D365_Retail.html" class="btn">D365 Retail</a>
     </header>
 
     <main id="content" class="main-content" role="main">
